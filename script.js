@@ -202,6 +202,42 @@ const projectData = {
                 <li>24/7 Verfügbarkeit</li>
             </ul>
         `
+    },
+    'home-nas': {
+        title: 'Home NAS – Network Attached Storage',
+        images: [
+            'Screenshots/NAS.png',
+            'Screenshots/NAS 1.png',
+            'Screenshots/NAS 3.jpg',
+            'Screenshots/NAS 4.jpg'
+        ],
+        description: `
+            <h2>Home NAS – Network Attached Storage</h2>
+            <p><strong>Headless Server mit redundantem Speichersystem, Media-Stack und sicherem Remote-Zugriff.</strong></p>
+
+            <h3>Technische Eckdaten:</h3>
+            <ul>
+                <li>4-Bay-Gehäuse mit hot-swappable Festplatteneinschüben und SATA-Backplane</li>
+                <li>Headless Administration via SSH und Web-Dashboard (Docker + Portainer)</li>
+                <li>ZFS RAIDZ-Konfiguration mit automatisierten SMART-Checks und Snapshots</li>
+            </ul>
+
+            <h3>Media & Services:</h3>
+            <ul>
+                <li><strong>Jellyfin:</strong> Eigener Streaming-Service für Filme und Serien inkl. automatischer Metadaten-Beschaffung</li>
+                <li>Transcoding-Queue für unterschiedliche Endgeräte (Mobile, Smart TV, Browser)</li>
+                <li>Geplante Backup-Jobs auf externes Laufwerk und verschlüsselten Cloud-Bucket</li>
+            </ul>
+
+            <h3>Security & Remote Access:</h3>
+            <ul>
+                <li>WireGuard VPN-Tunnel für verschlüsselten Zugriff von unterwegs</li>
+                <li>Role-based Access Control für Freigaben (Media, Archive, Dev-Files)</li>
+                <li>Monitoring via Uptime-Kuma und Telegram Alerts bei Temperatur- oder RAID-Events</li>
+            </ul>
+
+            <p>Das Setup ermöglicht mir, Medienbibliotheken, Projektdateien und Backups zentral zu hosten und dank VPN-Tunnel jederzeit sicher darauf zuzugreifen – ganz ohne Peripherie, vollständig headless.</p>
+        `
     }
 };
 
