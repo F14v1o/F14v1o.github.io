@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F.Paesano - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="space-background">
+        <div class="stars-small"></div>
+        <div class="stars-medium"></div>
+        <div class="stars-large"></div>
+    </div>
+    <div class="planet-glow-1"></div>
+    <div class="planet-glow-2"></div>
+
+    <!-- Navigation -->
+    <nav class="navigation-menu">
+        <div class="nav-container">
+            <div class="nav-logo">Flavio Paesano</div>
+            <button class="mobile-menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">Über mich</a></li>
+                <li><a href="#projects" class="nav-link">Projekte</a></li>
+                <li><a href="#certificates" class="nav-link">Zertifikate</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="profile-image-wrapper">
+                    <img src="FOTO 1.jpeg" alt="F.P Profile" class="profile-image">
+                </div>
+                <h1 class="hero-title">F.Paesano</h1>
+                <div class="social-links" style="margin:12px 0;">
+  <a href="https://github.com/F14v1o" target="_blank" aria-label="GitHub" style="margin-right: 12px;">
+    <i class="fab fa-github fa-2x"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/flavio-paesano-431702342" target="_blank" aria-label="LinkedIn">
+    <i class="fab fa-linkedin fa-2x"></i>
+  </a>
+</div>
+                <p class="hero-subtitle">Developer | AI & Automation Specialist</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Meine Projekte</a>
+                    <a href="Lebenslauf F.P 12.05.2025.pdf" download class="btn btn-secondary">
+                        <i class="fas fa-download"></i> Lebenslauf
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <h2 class="section-title">Über mich</h2>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Entwicklung</h3>
+                    <p>Erfahrung in Python, JavaScript, Web-Scraping und AI-Automation mit modernen Tools und Frameworks.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI & Automation</h3>
+                    <p>Spezialisiert auf N8N Workflows, AI-Agenten und intelligente Automatisierungslösungen für Unternehmen.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Zertifizierungen</h3>
+                    <p>CS50x (Harvard), Google Cloud, Digital Marketing und weitere professionelle Zertifikate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-container">
+            <h2 class="section-title">Projekte</h2>
+            <div class="projects-grid">
+                
+                <!-- Neubau.Website Project -->
+                <article class="project-card">
+                    <div class="project-image-wrapper neubau-gradient">
+                        <div class="neubau-logo-wrapper">
+                            <h2 class="neubau-logo">neubau.website</h2>
+                            <p class="neubau-tagline">EST. 2023 🇨🇭</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">neubau.website - Immobilien Marketing Startup</h3>
+                        <p class="project-description">
+                            Schweizer Startup für 3D-Visualisierungen und digitales Marketing von Neubauprojekten. Software Engineer im Team für Webentwicklung und technische Implementierung.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Startup</span>
+                            <span class="tag">Web Development</span>
+                            <span class="tag">Real Estate</span>
+                            <span class="tag">3D Visualization</span>
+                        </div>
+                        <a href="https://www.neubau.website" target="_blank" rel="noopener noreferrer" class="project-external-link">
+                            <i class="fas fa-external-link-alt"></i> Website besuchen
+                        </a>
+                    </div>
+                </article>
+
+                <!-- N8N Workflow Project -->
+                <article class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="Screenshots/Workflowautomation Thumbnail.png" alt="N8N Workflow" class="project-image">
+                        <div class="project-overlay">
+                            <button class="project-view-btn" data-project="n8n-workflow">Details ansehen</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">N8N Workflow AI-Agent Automation</h3>
+                        <p class="project-description">
+                            Komplexe Workflow-Automatisierung mit N8N für AI-Agenten, inklusive Datenverarbeitung und intelligenter Entscheidungsfindung.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">N8N</span>
+                            <span class="tag">AI</span>
+                            <span class="tag">Workflow</span>
+                            <span class="tag">Integration</span>
+                        </div>
+                        <a href="https://www.kikey.ch" target="_blank" rel="noopener noreferrer" class="project-external-link">
+                            <i class="fas fa-external-link-alt"></i> Website besuchen
+                        </a>
+                    </div>
+                </article>
+
+                <!-- HR Agent Project -->
+                <article class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="Screenshots/HR-AGent 1.png" alt="Swiss HR Agent" class="project-image">
+                        <div class="project-overlay">
+                            <button class="project-view-btn" data-project="hr-agent">Details ansehen</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Swiss HR Agent</h3>
+                        <p class="project-description">
+                            Mehrsprachiger HR-Assistent für Schweizer KMUs mit Compliance gemäss Schweizer Arbeitsrecht (OR, Art. 319-362).
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">AI</span>
+                            <span class="tag">Automation</span>
+                            <span class="tag">HR</span>
+                            <span class="tag">Multilingual</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Email Scraper Project -->
+                <article class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="Screenshots/Webscraping Thumbnail.jpg" alt="Web Scraper" class="project-image">
+                        <div class="project-overlay">
+                            <button class="project-view-btn" data-project="email-scraper">Details ansehen</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Web Scraper für Email-Extraktion</h3>
+                        <p class="project-description">
+                            Intelligenter Web-Scraper mit AJAX-Unterstützung und Pattern-Matching zur automatisierten Email-Extraktion aus Webseiten.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Web Scraping</span>
+                            <span class="tag">Automation</span>
+                            <span class="tag">Data Mining</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Home NAS Project -->
+                <article class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="Screenshots/NAS THUMBNAIL.jpg" alt="Home NAS Network Attached Storage" class="project-image">
+                        <div class="project-overlay">
+                            <button class="project-view-btn" data-project="home-nas">Details ansehen</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Home NAS – Network Attached Storage</h3>
+                        <p class="project-description">
+                            Headless Storage-Server mit mehreren Festplatteneinschüben, Jellyfin Media-Server und VPN-Tunnel für sicheren Remote-Zugriff auf alle Services.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Self-Hosting</span>
+                            <span class="tag">Networking</span>
+                            <span class="tag">Security</span>
+                            <span class="tag">Automation</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates-section">
+        <div class="section-container">
+            <h2 class="section-title">Zertifikate & Qualifikationen</h2>
+            <div class="certificates-grid">
+                
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>CS50x Certificate</h3>
+                    <p>Harvard University - Computer Science</p>
+                    <a href="CS50x CERTIFICATE.pdf" target="_blank" class="certificate-link">
+                        <i class="fas fa-external-link-alt"></i> Zertifikat ansehen
+                    </a>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <h3>Google Cloud Certificate</h3>
+                    <p>Google Cloud Certified Fundamentals (GCCF1x)</p>
+                    <a href="GoogleCloud GCCF1x Certificate _ edX.pdf" target="_blank" class="certificate-link">
+                        <i class="fas fa-external-link-alt"></i> Zertifikat ansehen
+                    </a>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>Zertifizierung im Digital Marketing</p>
+                    <a href="Zertifikat-DIGITAL-MARKETING.pdf" target="_blank" class="certificate-link">
+                        <i class="fas fa-external-link-alt"></i> Zertifikat ansehen
+                    </a>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programmierungs Basics</h3>
+                    <p>ATTEST - Programmierung Grundlagen</p>
+                    <a href="ATTEST-Programmierungs Basics.pdf" target="_blank" class="certificate-link">
+                        <i class="fas fa-external-link-alt"></i> Zertifikat ansehen
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <h2 class="section-title">Kontakt</h2>
+            <div class="contact-content">
+                <p class="contact-text">
+                    Interessiert an einer Zusammenarbeit? Kontaktieren Sie mich für Projekte, Consulting oder weitere Informationen.
+                </p>
+                <div class="contact-buttons">
+                    <a href="mailto:flavio-paesano@gmx.ch" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Email senden
+                    </a>
+                    <a href="Lebenslauf F.P 12.05.2025.pdf" download class="btn btn-secondary">
+                        <i class="fas fa-file-pdf"></i> Lebenslauf herunterladen
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 F.P. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal" id="project-modal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close">&times;</button>
+            <div class="modal-body" id="modal-body">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
